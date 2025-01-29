@@ -46,7 +46,7 @@ A web-based application to manage coffee machines, users, and orders, featuring 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/coffee-machine-backend.git
+   git clone https://repo
    cd coffee-machine-backend
    ```
 2. Install PHP dependencies:
@@ -120,7 +120,7 @@ A web-based application to manage coffee machines, users, and orders, featuring 
 
 Once both the backend and frontend servers are running:
 
-- Open the frontend application in your browser at `http://localhost:3000`.
+- Open the frontend application in your browser at `http://localhost:5372`.
 - Log in as an admin to manage machines, orders, and users.
 - Users can order coffee using their RFID tag.
 
