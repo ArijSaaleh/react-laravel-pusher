@@ -1,0 +1,28 @@
+@keyframes brew {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+.animate-brew {
+  animation: brew 3s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.machine-visual {
+  animation: pulse 2s ease-in-out infinite;
+}
